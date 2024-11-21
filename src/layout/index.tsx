@@ -17,7 +17,7 @@ const Layout: React.FC<Props> = ({children}) =>{
             <main>{children}</main>
         </div> : <div className=" w-full relative bg-main h-screen flex flex-row">
             <SideBar />
-            <div>
+            <div className="w-10/12">
                 <main>{children}</main>
             </div>
         </div>
