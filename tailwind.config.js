@@ -14,6 +14,9 @@ export default {
       'white':'#ffffff',
       'pink':'#cb3cff',
       'blue':'#7f25fb'
+    },
+    fontFamily: {
+      'logo':['Creepster']
     }
   },
   plugins: [],
