@@ -1,7 +1,14 @@
-import react from "react"
+import React from "react"
 import { useNavigate } from "react-router-dom";
 
-const SideBarButton = ({icon, text, isSelected, path}) =>{
+type Props = {
+    icon: string;
+    text: string;
+    isSelected: boolean;
+    path: string;
+}
+
+const SideBarButton: React.FC<Props> = ({icon, text, isSelected, path}) =>{
 
     const navigate = useNavigate();
 

@@ -1,4 +1,5 @@
-import react from "react"
+// import react from "react"
+import { useNavigate } from "react-router-dom";
 
 import Layout from "../layout/index.tsx"
 import LineInput from "../components/LineInput"
@@ -6,6 +7,9 @@ import BlueButton from "../components/BlueButton"
 import PinkCheckBox from "../components/PinkCheckBox"
 
 const LoginPage = () =>{
+
+    const navigate = useNavigate();
+
     return (
         <Layout>
             <div className=" w-full h-screen flex justify-center items-center absolute">
@@ -25,7 +29,7 @@ const LoginPage = () =>{
                         <PinkCheckBox text={"Remember me"} />
                     </div>
                     <div className=" w-10/12 mt-6">
-                        <BlueButton text="Log In" />
+                        <BlueButton text="Log In" onClickHandler={()=>{navigate("/dashboard")}}/>
                     </div>
                 </div>
             </div>
