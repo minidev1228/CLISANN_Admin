@@ -7,13 +7,13 @@ export default {
   theme: {
     extend: {},
     colors: {
-      'main':'#171d2d' ,
-      'card':'#212736' ,
-      'card-p':'#a8a9ab',
-      'img' :'#2f3136',
-      'blue':'#3a8ef0',
-      'gray':'#8e8f91',
-      'white' : '#e3e3e3'
+      'main':'#081028',
+      'block':'#0b1739',
+      'line':'#30374d',
+      'placeholder':'#9fb2d5',
+      'white':'#ffffff',
+      'pink':'#cb3cff',
+      'blue':'#7f25fb'
     }
   },
   plugins: [],

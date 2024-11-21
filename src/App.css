@@ -76,3 +76,8 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #010f20; 
 }
+
+input::placeholder {
+  color: #9fb2d5;
+  opacity: 1; /* Firefox */
+}
