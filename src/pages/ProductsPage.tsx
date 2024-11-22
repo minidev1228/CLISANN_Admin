@@ -1,5 +1,3 @@
-
-
 import Layout from "../layout/index";
 import BlueButton from "../components/BlueButton";
 import IconButton from "../components/IconButton";
@@ -9,16 +7,18 @@ const ProductPage = () => {
     {
       name: "product1",
       description: "This is product1 description",
-      price:100
-    },{
-        name: "product2",
-        description: "This is product2 description",
-        price:200
-    },{
-        name: "product3",
-        description: "This is product3 description",
-        price:300
-      }
+      price: 100,
+    },
+    {
+      name: "product2",
+      description: "This is product2 description",
+      price: 200,
+    },
+    {
+      name: "product3",
+      description: "This is product3 description",
+      price: 300,
+    },
   ];
 
   return (
@@ -117,19 +117,30 @@ const ProductPage = () => {
                 </div>
               </th>
             </tr>
-            {
-                    products.map((product)=><tr>
-                        <td>{product.name}</td>
-                        <td>{product.description}</td>
-                        <td>${product.price}</td>
-                        <td className=" flex flex-row justify-center w-36">
-                            <IconButton type={"edit"} onClickHandler={()=>{}} />
-                            <IconButton type={"delete"} onClickHandler={()=>{}} />
-                        </td>
-                    </tr>
-                    )
-                }
+            {products.map((product) => (
+              <tr>
+                <td>{product.name}</td>
+                <td>{product.description}</td>
+                <td>${product.price}</td>
+                <td className=" flex flex-row justify-center w-36">
+                  <IconButton type={"edit"} onClickHandler={() => {}} />
+                  <IconButton type={"delete"} onClickHandler={() => {}} />
+                </td>
+              </tr>
+            ))}
           </table>
+        </div>
+        <div className=" w-full flex mt-5">
+          <div className=" flex-grow">&nbsp;</div>
+          <div className=" flex flex-row">
+            <div className=" w-12">
+              <IconButton type={"prev"} onClickHandler={() => {}} />
+            </div>
+            <span className=" text-placeholder ml-3 mr-3">1</span>
+            <div className=" w-12">
+              <IconButton type={"next"} onClickHandler={() => {}} />
+            </div>
+          </div>
         </div>
       </div>
     </Layout>

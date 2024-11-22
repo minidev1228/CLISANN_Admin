@@ -373,6 +373,18 @@ const InvoicePage = () => {
                 )
               }
             </table>
+            <div className=" w-full flex mt-5">
+              <div className=" flex-grow">&nbsp;</div>
+              <div className=" flex flex-row">
+                <div className=" w-12">
+                <IconButton type={"prev"} onClickHandler={()=>{}}/>
+                </div>
+                <span className=" text-placeholder ml-3 mr-3">1</span>
+                <div className=" w-12">
+                <IconButton type={"next"} onClickHandler={()=>{}}/>
+                </div>
+              </div>
+            </div>
           </div>
         )}
       </div>
