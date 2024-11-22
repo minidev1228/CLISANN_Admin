@@ -131,10 +131,10 @@ const InvoicePage = () =>{
                         <div className=" flex flex-row">
                             <div className=" p-2 w-3/5 mr-1 p-5 mt-5 pb-7 w-96 bg-block rounded-lg flex flex flex-wrap" style={{boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
                                 <div  className=" w-full p-3 rounded-md" style={{border:"1px solid #30374d"}}>
-                                    <textarea className=" bg-block outline-none text-white border-none w-full" placeholder="Additional Notes..." maxrow="4" minrow="4" />
+                                    <textarea className=" bg-block outline-none text-white border-none w-full" placeholder="Additional Notes..." rows={4}/>
                                 </div>
                                 <div  className=" w-full p-3 rounded-md mt-5" style={{border:"1px solid #30374d"}}>
-                                    <textarea className=" bg-block outline-none text-white border-none w-full" placeholder="Enter custom email if you wish to override the default invoice type email msg!" maxrow="4" minrow="4" />
+                                    <textarea className=" bg-block outline-none text-white border-none w-full" placeholder="Enter custom email if you wish to override the default invoice type email msg!" rows={4} />
                                 </div>
                             </div>
                             <div className=" p-2 w-3/5 p-5 mt-5 pb-7 w-96 bg-block rounded-lg flex flex-row relative" style={{boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
