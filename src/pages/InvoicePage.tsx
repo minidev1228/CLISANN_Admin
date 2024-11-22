@@ -128,8 +128,8 @@ const InvoicePage = () =>{
                             </div>
                         </div>
                         <h1 className=" text-white mt-5">Additions :</h1>
-                        <div className=" flex flex-row">
-                            <div className=" p-2 w-3/5 mr-1 p-5 mt-5 pb-7 w-96 bg-block rounded-lg flex flex flex-wrap" style={{boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
+                        <div className=" flex flex-row w-full">
+                            <div className=" p-2 w-full mr-1 p-5 mt-5 pb-7 w-96 bg-block rounded-lg flex flex flex-wrap" style={{boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
                                 <div  className=" w-full p-3 rounded-md" style={{border:"1px solid #30374d"}}>
                                     <textarea className=" bg-block outline-none text-white border-none w-full" placeholder="Additional Notes..." rows={4}/>
                                 </div>
@@ -137,21 +137,21 @@ const InvoicePage = () =>{
                                     <textarea className=" bg-block outline-none text-white border-none w-full" placeholder="Enter custom email if you wish to override the default invoice type email msg!" rows={4} />
                                 </div>
                             </div>
-                            <div className=" p-2 w-3/5 p-5 mt-5 pb-7 w-96 bg-block rounded-lg flex flex-row relative" style={{boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
+                            <div className=" p-2 w-full p-5 mt-5 pb-7 w-96 bg-block rounded-lg flex flex-row relative" style={{boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
                                 <div className=" w-1/3 hidden md:block ">
-
+ 
                                 </div>
                                 <div className=" flex flex-col w-1/2 md:w-1/3">
-                                    <span className="text-placeholder mb-3">Sub Total(Ksh) : 0.00</span>
-                                    <span className="text-placeholder mb-3">Discount(Ksh) : 0.00</span>
-                                    <span className="text-placeholder mb-3">TAX/VAT(Ksh) : 0.00</span>
-                                    <span className="text-placeholder mb-3">Total(Ksh) : 0.00</span>
+                                    <span className="text-placeholder mb-5">Sub Total(Ksh) : 0.00</span>
+                                    <span className="text-placeholder mb-5">Discount(Ksh) : 0.00</span>
+                                    <span className="text-placeholder mb-5">TAX/VAT(Ksh) : 0.00</span>
+                                    <span className="text-placeholder mb-5">Total(Ksh) : 0.00</span>
                                 </div>
                                 <div className=" w-1/2 md:w-1/3">
-                                    <div className=" w-full mb-3">
+                                    <div className=" w-full mb-10">
                                         <PinkCheckBox text={"Remove TAX/VAT "} /> 
                                     </div>
-                                    <div className="w-full flex flex-row items-center mb-3">
+                                    <div className="w-full flex flex-row items-center mb-5">
                                         <h1 className="text-placeholder mr-2">Shipping: </h1>
                                         <div className="w-1/3">
                                         <LineInput placeholder={"0.0"} type={"number"} />
