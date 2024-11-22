@@ -148,7 +148,7 @@ const InvoicePage = () =>{
                                     <span className="text-placeholder mb-5">Total(Ksh) : 0.00</span>
                                 </div>
                                 <div className=" w-1/2 md:w-1/3">
-                                    <div className=" w-full mb-10">
+                                    <div className=" w-full mb-10 mt-5">
                                         <PinkCheckBox text={"Remove TAX/VAT "} /> 
                                     </div>
                                     <div className="w-full flex flex-row items-center mb-5">
