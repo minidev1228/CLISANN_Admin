@@ -57,7 +57,7 @@
 
 
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 2px;
 }
 
 /* Track */
@@ -68,13 +68,13 @@
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #010f20; 
+  background: #0b1739; 
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #010f20; 
+  background: #0e43fb; 
 }
 
 input::placeholder {

@@ -11,8 +11,8 @@ const SideBar = () =>{
     const navigate = useNavigate();
 
     return (
-        <div className="h-full flex items-center flex-col w-52 bg-sidebar pt-10 relative" style={{borderRight:"1px solid #0b1739"}}>
-            <div className=" flex justify-center items-center flex-row mb-10">
+        <div className="h-screen flex items-center flex-col w-52 bg-sidebar pt-10 relative" style={{borderRight:"1px solid #0b1739"}}>
+            <div className=" flex justify-center items-center flex-row mb-10 cursor-pointer" onClick={()=>{navigate("/dashboard")}}>
                 <img src="https://img.icons8.com/?size=100&id=115213&format=png&color=9fb2d5" className=" size-10 mr-3" alt="" />
                 <h1 className=" text-placeholder text-2xl font-logo">Clisann</h1>
             </div>

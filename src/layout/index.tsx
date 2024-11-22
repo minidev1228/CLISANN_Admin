@@ -15,7 +15,7 @@ const Layout: React.FC<Props> = ({children}) =>{
         location.pathname === "/" ?
         <div className=" w-full relative bg-main h-screen">
             <main>{children}</main>
-        </div> : <div className=" w-full relative bg-main h-screen flex flex-row">
+        </div> : <div className=" w-full relative bg-main pb-5 flex flex-row">
             <SideBar />
             <div className="w-10/12">
                 <main>{children}</main>
