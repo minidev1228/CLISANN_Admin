@@ -81,3 +81,34 @@ input::placeholder {
   color: #9fb2d5;
   opacity: 1; /* Firefox */
 }
+
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 13px;
+  color: white;
+  border-radius: 50px;
+}
+
+#customers td, #customers th {
+  /* border: 1px solid #ddd; */
+  padding: 8px;
+  padding-left: 30px;
+}
+
+#customers tr:nth-child(even){background-color: #0b1739;}
+
+#customers tr {
+  background-color:  #0a1330;
+  height: 60px;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0b1739;;
+  color: white;;
+}
